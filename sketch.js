@@ -3,9 +3,10 @@ function setup() {
     background(0);
 
 
-    var m1 = new Matrix(1,2);
-    var m2 = new Matrix(2,1);
-
+    var m1 = new Matrix(3,3);
+    var m2 = new Matrix(3,3 );
+    var res = Matrix.add(m1,m2)
+    console.log(res)
 }
 
 function draw(){
